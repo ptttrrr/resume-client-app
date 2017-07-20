@@ -1,0 +1,42 @@
+
+/* html, body */
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;   
+}
+
+body  {
+/* body background gradient */
+background: linear-gradient(216deg, #1c83b8, #cb692b) !important;
+background-size: 400% 400% !important;
+
+-webkit-animation: AnimationName 60s ease infinite !important;
+-moz-animation: AnimationName 60s ease infinite !important;
+animation: AnimationName 60s ease infinite !important;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:14% 0%}
+    50%{background-position:87% 100%}
+    100%{background-position:14% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:14% 0%}
+    50%{background-position:87% 100%}
+    100%{background-position:14% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:14% 0%}
+    50%{background-position:87% 100%}
+    100%{background-position:14% 0%}
+}
+
+
+
+
+
+
+
+
+
+
+
