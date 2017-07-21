@@ -8,7 +8,7 @@ html {
 body  {
 /* body background gradient */
 background: linear-gradient(216deg, #1c83b8, #cb692b) !important;
-background-size: 400% 400% !important;
+background-size: 600% 600% !important;
 
 -webkit-animation: AnimationName 60s ease infinite !important;
 -moz-animation: AnimationName 60s ease infinite !important;

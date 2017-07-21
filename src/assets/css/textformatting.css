@@ -1,5 +1,5 @@
 /* text formatting */
-h1 {
+h1.splash {
     font-family: 'Lato', -sans-serif; 
     font-weight: 300;
     text-transform: uppercase;
@@ -10,3 +10,32 @@ h1 {
     padding-bottom: 1em;
     text-align: center;
 }
+
+/* LESS THAN 75 */
+@media (max-width: 74.9em) {
+      h1.splash {
+        font-size: 2.8em;
+      }
+ }
+
+/* LESS THAN 62 */
+@media (max-width: 61.9em) {
+      h1.splash {
+        font-size: 2.0em;
+      }
+}
+
+/* LESS THAN 48 */
+@media (max-width: 47.9em) {
+      h1.splash {
+        font-size: 1.5em;
+      }
+}
+
+/* LESS THAN 34 */
+@media (max-width: 33.9em) { 
+      h1.splash {
+        font-size: 0.9em;
+      }
+}
+
