@@ -4,7 +4,7 @@ import { Routes, RouterModule }     from '@angular/router';
 
 const appRoutes: Routes = [
     {
-        path: '',
+        path: '/#/',
         redirectTo: '',
         pathMatch: 'full'
     }
@@ -12,4 +12,4 @@ const appRoutes: Routes = [
 ];
 
 
-export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
+export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes, {useHash : true});
