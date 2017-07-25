@@ -14,12 +14,12 @@ export class ColorService {
 
     // Refactor endpoint/originUrl to a shared service
     constructor(public http: Http) {
-        this.endpoint = Global.endpoint + 'api/Colors';
+        this.endpoint = Global.endpoint + 'api/Color';
     }
 
 
     public getColors() {
-        return this.http.get(this.endpoint + '/getcolors')
+        return this.http.get(this.endpoint)
             .map(response => response.json() as Color[]);
     }
 }
