@@ -4,11 +4,11 @@ import { ColorService } from '../../shared/services/color.service';
 
 
 @Component({
-    selector: 'dashboard-component',
-    templateUrl: './dashboard.component.html',
+    selector: 'header-component',
+    templateUrl: './header.component.html',
     // providers: [ColorService]
 })
-export class DashboardComponent {
+export class HeaderComponent {
     constructor(private colorService: ColorService) {
 
     }

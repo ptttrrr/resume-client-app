@@ -14,14 +14,17 @@ import { ColorService } from './shared/services/color.service';
 import { routing } from './app.routing';
 
 // Components
-import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { HeaderComponent } from './components/header/header.component';
+import { SocialLinksComponent } from './components/social-links/social-links.component';
 
+// App component
 import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    HeaderComponent,
+    SocialLinksComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,167 @@
+/* 
+The MIT License (MIT)
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+https://opensource.org/licenses/MIT
+Credit goes to: Ruandre Janse Van Rensburg (ruandrejvr@gmail.com)  https://codepen.io/ruandre/pen/howFi
+ */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.soc {
+      display: block;
+  font-size: 0;
+  list-style: none;
+  margin: 0;
+  padding: 48px;
+  padding: 4.8rem;
+  text-align: center;
+}
+.soc li {
+  display: inline-block;
+  margin: 12px;
+  margin: 1.2rem;
+}
+.soc a, .soc svg {
+  display: block;
+}
+.soc a {
+  position: relative;
+  height: 46px;
+  height: 4.6rem;
+  width: 46px;
+  width: 4.6rem;
+}
+.soc svg {
+  height: 100%;
+  width: 100%;
+}
+.soc em {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: -0.75em;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.icon-1:hover, .icon-2:hover, .icon-3:hover, .icon-4:hover, .icon-5:hover, .icon-6:hover, .icon-7:hover, .icon-8:hover {
+  border-radius: 100%;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+}
+.icon-1 {
+  border-radius: 100%;
+  background: white;
+  color: white;
+  fill: white;
+  opacity: 0.5;
+  fill: black;
+}
+.icon-1:hover {
+  opacity: 1;
+  background: #4ca1ae;
+  fill: hsl 0, 100, 100;
+}
+.icon-2 {
+  border-radius: 100%;
+  background: white;
+  color: white;
+  fill: white;
+  opacity: 0.5;
+  fill: black;
+}
+.icon-2:hover {
+  opacity: 1;
+  background: #4ca1ae;
+  fill: hsl 0, 100, 100;
+}
+.icon-3 {
+  border-radius: 100%;
+  background: white;
+  color: white;
+  fill: white;
+  opacity: 0.5;
+  fill: black;
+}
+.icon-3:hover {
+  opacity: 1;
+  background: #4ca1ae;
+  fill: hsl 0, 100, 100;
+}
+.icon-4 {
+  border-radius: 100%;
+  background: white;
+  color: white;
+  fill: white;
+  opacity: 0.5;
+  fill: black;
+}
+.icon-4:hover {
+  opacity: 1;
+  background: #4ca1ae;
+  fill: hsl 0, 100, 100;
+}
+.icon-5 {
+  border-radius: 100%;
+  background: white;
+  color: white;
+  fill: white;
+  opacity: 0.5;
+  fill: black;
+}
+.icon-5:hover {
+  opacity: 1;
+  background: #4ca1ae;
+  fill: hsl 0, 100, 100;
+}
+.icon-6 {
+  border-radius: 100%;
+  background: white;
+  color: white;
+  fill: white;
+  opacity: 0.5;
+  fill: black;
+}
+.icon-6:hover {
+  opacity: 1;
+  background: #4ca1ae;
+  fill: hsl 0, 100, 100;
+}
+.icon-7 {
+  border-radius: 100%;
+  background: white;
+  color: white;
+  fill: white;
+  opacity: 0.5;
+  fill: black;
+}
+.icon-7:hover {
+  opacity: 1;
+  background: #4ca1ae;
+  fill: hsl 0, 100, 100;
+}
+.icon-8 {
+  border-radius: 100%;
+  background: white;
+  color: white;
+  fill: white;
+  opacity: 0.5;
+  fill: black;
+}
+.icon-8:hover {
+  opacity: 1;
+  background: #4ca1ae;
+  fill: hsl 0, 100, 100;
+}
