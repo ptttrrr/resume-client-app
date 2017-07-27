@@ -13,19 +13,20 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 .soc {
-      display: block;
+  display: block;
   font-size: 0;
   list-style: none;
   margin: 0;
-  padding: 48px;
-  padding: 4.8rem;
+  padding: 1px;
+  padding: 1rem;
   text-align: center;
 }
 .soc li {
   display: inline-block;
-  margin: 12px;
-  margin: 1.2rem;
+  margin: 10px;
+  margin: 10rem;
 }
 .soc a, .soc svg {
   display: block;
@@ -164,4 +165,80 @@ html {
   opacity: 1;
   background: #4ca1ae;
   fill: hsl 0, 100, 100;
+}
+
+
+/* MORE THAN 75 */
+@media (min-width: 74.9em) {
+.soc a {
+  height: 36px;
+  height: 4rem;
+  width: 36px;
+  width: 4rem;
+  }
+.soc li {
+  display: inline-block;
+  margin: 12px;
+  margin: 1.2rem;
+  }
+}
+
+/* LESS THAN 75 */
+@media (max-width: 74.9em) {
+.soc a {
+  height: 36px;
+  height: 3.6rem;
+  width: 36px;
+  width: 3.6rem;
+  }
+.soc li {
+  display: inline-block;
+  margin: 12px;
+  margin: 1.2rem;
+  }
+}
+
+/* LESS THAN 62 */
+@media (max-width: 61.9em) {
+.soc a {
+  height: 30px;
+  height: 3rem;
+  width: 30px;
+  width: 3rem;
+  }
+.soc li {
+  display: inline-block;
+  margin: 8px;
+  margin: 0.8rem;
+  }
+}
+
+/* LESS THAN 48 */
+@media (max-width: 47.9em) {
+.soc a {
+  height: 25px;
+  height: 2.8rem;
+  width: 25px;
+  width: 2.8rem;
+  }
+.soc li {
+  display: inline-block;
+  margin: 3px;
+  margin: 1vw;
+  }
+}
+
+/* LESS THAN 34 */
+@media (max-width: 33.9em) { 
+.soc a {
+  height: 35px;
+  height: 3.5rem;
+  width: 35px;
+  width: 3.5rem;
+  }
+.soc li {
+  display: inline-block;
+  margin: 3px;
+  margin: 1.2vw;
+  }
 }

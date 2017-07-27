@@ -14,7 +14,8 @@ h1.splash {
 /* LESS THAN 75 */
 @media (max-width: 74.9em) {
       h1.splash {
-        font-size: 2.8em;
+        font-size: 3em;
+        
       }
  }
 
@@ -28,14 +29,15 @@ h1.splash {
 /* LESS THAN 48 */
 @media (max-width: 47.9em) {
       h1.splash {
-        font-size: 1.5em;
+        font-size: 2em;
       }
 }
 
 /* LESS THAN 34 */
 @media (max-width: 33.9em) { 
       h1.splash {
-        font-size: 0.9em;
+        font-size: 1.2em;
+        letter-spacing: 0.2em;
       }
 }
 
