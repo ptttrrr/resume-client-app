@@ -8,3 +8,12 @@
 @import url("/assets/css/containers.css");
 @import url("/assets/css/textformatting.css");
 @import url("/assets/css/media-icons.css");
+
+
+/* external */
+@import url(https://fonts.googleapis.com/css?family=Lato:100,400);
+@import url(http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css);
+
+
+/* final css at deloyment */
+@import url("/assets/css/concat-style.css");
