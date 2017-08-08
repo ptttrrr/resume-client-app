@@ -15,9 +15,12 @@ body {
     margin-right:auto;
     margin-left:auto
 }
-
-
-
+.center {
+    text-align: center;
+}
+.top50 {
+    padding-top: 50px;
+}
 
 
 

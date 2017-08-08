@@ -3,7 +3,7 @@ import { Http } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import { Skill } from '../models/skill.type';
 import { Global } from '../global.service';
-import 'rxjs/add/operator/map'
+import 'rxjs/add/operator/map';
 import 'rxjs/RX';
 
 
@@ -12,7 +12,6 @@ export class SkillService {
 
     endpoint: string;
 
-    // Refactor endpoint/originUrl to a shared service
     constructor(public http: Http) {
         this.endpoint = Global.endpoint + 'api/Skill';
     }

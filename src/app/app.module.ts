@@ -3,9 +3,9 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
-import { LocationStrategy, 
+import { LocationStrategy,
          HashLocationStrategy,
-         APP_BASE_HREF } from '@angular/common'
+         APP_BASE_HREF } from '@angular/common';
 
 // Services
 import { SkillService } from './shared/services/skill.service';
@@ -16,6 +16,7 @@ import { routing } from './app.routing';
 // Components
 import { HeaderComponent } from './components/header/header.component';
 import { SocialLinksComponent } from './components/social-links/social-links.component';
+import { SkillComponent } from './components/skill/skill.component';
 
 // App component
 import { AppComponent } from './app.component';
@@ -24,7 +25,8 @@ import { AppComponent } from './app.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    SocialLinksComponent
+    SocialLinksComponent,
+    SkillComponent
   ],
   imports: [
     BrowserModule,
