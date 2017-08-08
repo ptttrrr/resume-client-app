@@ -8,7 +8,7 @@ import { LocationStrategy,
          APP_BASE_HREF } from '@angular/common'
 
 // Services
-import { ColorService } from './shared/services/color.service';
+import { SkillService } from './shared/services/skill.service';
 
 // Routing
 import { routing } from './app.routing';
@@ -34,7 +34,7 @@ import { AppComponent } from './app.component';
     routing
   ],
   providers: [ 
-    ColorService,
+    SkillService,
     {provide: APP_BASE_HREF,  useValue: '/' },
     {provide: LocationStrategy, useClass: HashLocationStrategy},
     ],
