@@ -21,8 +21,7 @@
         "styles.css"
       ],
       "scripts": [],
-      "environments": {
-        "source": "environments/environment.ts",
+      "environmentsSource": {
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
       }
