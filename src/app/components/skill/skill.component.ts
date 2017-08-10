@@ -8,7 +8,7 @@ import { ISkill } from '../../shared/models/skill.interface';
 })
 export class SkillComponent implements OnInit {
 
-    private skills: ISkill[] = [];
+    public skills: ISkill[] = [];
 
 
     constructor(private skillService: SkillService) {
