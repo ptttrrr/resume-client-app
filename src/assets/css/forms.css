@@ -1,0 +1,28 @@
+input[type="text"] {
+  display: block;
+  margin: 0;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 40px;
+  box-shadow: none;
+  border-radius: none;
+  text-align: center;
+  height: 60px;
+}
+input[type="text"]:focus {
+  outline: none;
+ 
+}
+
+
+.d-border input[type="text"] {
+  padding: 10px;
+  border: solid 5px #c9c9c9;
+  transition: border 0.3s;
+}
+
+.d-border input[type="text"]:focus,
+.d-border input[type="text"].focus {
+  border: solid 5px #969696;
+}
+

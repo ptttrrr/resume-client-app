@@ -17,6 +17,7 @@ import { routing } from './app.routing';
 import { HeaderComponent } from './components/header/header.component';
 import { SocialLinksComponent } from './components/social-links/social-links.component';
 import { SkillComponent } from './components/skill/skill.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 // App component
 import { AppComponent } from './app.component';
@@ -26,7 +27,8 @@ import { AppComponent } from './app.component';
     AppComponent,
     HeaderComponent,
     SocialLinksComponent,
-    SkillComponent
+    SkillComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,7 @@ import { AppComponent } from './app.component';
     RouterModule,
     routing
   ],
-  providers: [ 
+  providers: [
     SkillService,
     {provide: APP_BASE_HREF,  useValue: '/' },
     {provide: LocationStrategy, useClass: HashLocationStrategy},

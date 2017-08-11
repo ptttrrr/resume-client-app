@@ -11,6 +11,14 @@ h1.splash {
     text-align: center;
 }
 
+h3 {
+    font-family: 'Lato', -sans-serif; 
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ffffff;  
+    letter-spacing: 0.2em;
+}
+
 /* LESS THAN 75 */
 @media (max-width: 74.9em) {
       h1.splash {
