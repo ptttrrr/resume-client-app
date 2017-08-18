@@ -1,18 +1,18 @@
 <section id="contact">
- <div class="container top50 center">
-    <div class="row">
-     <div class="col-md-6-lg-6">
-
-            <div class="form-group center d-border">
-                <h3 class="margin15">Type away</h3>
-            <input type="text" class="form-control" id="message">
-
-            <button type="button" class="btn btn-default margin15">SEND</button>
+    <div class="container top50 center">
+        <div class="row">
+            <div class="col-md-6-lg-6">
+            
+                <form [formGroup]="messageForm" (ngSubmit)="postMessage(messageForm.controls['message'].value)">
+                    <input type="text" formControlName="message" class="form-control" placeholder="msg">
+                    <input type="submit" class="btn btn-default btn-lg margin15" value="SEND" [disabled]="!messageForm.valid">
+                </form>
+              
+                <div class="alert alert-info" *ngIf="!messageForm.controls['message'].valid && messageForm.controls['message'].touched"> Please keep messages between 2 and 100 characters.</div>
+                {{ notification }}
+            </div>
         </div>
-      
-     </div>
     </div>
- </div>
 </section>
 
 

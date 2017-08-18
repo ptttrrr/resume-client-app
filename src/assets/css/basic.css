@@ -5,7 +5,7 @@ html {
     -webkit-text-size-adjust: 100%;   
 }
 body {
-    background: #cb2d3e;  /* fallback for old browsers */
+    background: rgb(203, 45, 62);  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -23,6 +23,13 @@ body {
 }
 .top50 {
     padding-top: 50px;
+}
+
+.bottom15 {
+    padding-bottom: 15px;
+}
+.bottom50 {
+    padding-bottom: 50px;
 }
 
 .margin15 {

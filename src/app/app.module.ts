@@ -1,23 +1,22 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { LocationStrategy,
          HashLocationStrategy,
          APP_BASE_HREF } from '@angular/common';
 
-// Services
-import { SkillService } from './shared/services/skill.service';
-
 // Routing
-import { routing } from './app.routing';
+import { routing } from './routing/app.routing';
 
-// Components
-import { HeaderComponent } from './components/header/header.component';
-import { SocialLinksComponent } from './components/social-links/social-links.component';
-import { SkillComponent } from './components/skill/skill.component';
-import { ContactComponent } from './components/contact/contact.component';
+// Modules
+import { ContactModule } from './components/contact/contact.module';
+import { CoffeeStatsModule } from './components/coffee-stats/coffee-stats.module';
+import { HeadersModule  } from './components/header/header.module';
+import { SkillModule } from './components/skill/skill.module';
+import { SocialLinksModule } from './components/social-links/social-links.module';
+
 
 // App component
 import { AppComponent } from './app.component';
@@ -25,24 +24,25 @@ import { AppComponent } from './app.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    SocialLinksComponent,
-    SkillComponent,
-    ContactComponent
+
   ],
   imports: [
+      CoffeeStatsModule,
+    ContactModule,
+    HeadersModule,
+    SkillModule,
+    SocialLinksModule,
     BrowserModule,
-    FormsModule,
     HttpModule,
     RouterModule,
     routing
+
   ],
   providers: [
-    SkillService,
     {provide: APP_BASE_HREF,  useValue: '/' },
     {provide: LocationStrategy, useClass: HashLocationStrategy},
     ],
   bootstrap: [AppComponent]
-
 })
+
 export class AppModule { }

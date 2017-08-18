@@ -20,5 +20,4 @@ export class SkillComponent implements OnInit {
                 this.skills = skills;
             });
     }
-
 }
